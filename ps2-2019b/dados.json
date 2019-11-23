@@ -1,0 +1,80 @@
+[
+  {
+    "trabalhos": [
+      { 
+        "titulo": "Minha Escola no PNE",
+        "descricao": "Visualize contribuições de uma escola para as metas do Plano Nacional de Educação",
+        "detalhes": "Minha Escola no PNE é um sistema Web que calcula e apresenta contribuições de uma escola para o alcance de metas do Plano Nacional de Educação. Selecione estado e escola e visualize métricas para cada uma das 20 metas do PNE, quando aplicáveis. Saiba mais sobre o PNE e as métricas calculadas. Fontes dos dados: INEP/MEC e IBGE.",
+        "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap",
+        "autores": "Anderson Mello e Daniel de Vargas, alunos de Sistemas de Informação, com orientação do Prof. Celio Trois",
+        "url": "http://projetominhaescolanopne.danielvargas-dv.com.br/",
+        "imagens":["escolapne/img00.png"]
+      },
+      { 
+        "titulo": "AlfabetizaJunto",
+        "descricao": "Receba informações diárias sobre alfabetização na palma da mão",
+        "detalhes": "AlfabetizaJunto é um aplicativo móvel para Android que oferece informações resumidas sobre alfabetização, a partir de fontes oficiais, no estilo de \"Frases do Dia\". Fontes dos dados: MEC e portais educacionais.",
+        "linguagens": "TypeScript, Ionic Framework, Google Sheets",
+        "autores": "Luiene Kaus, aluna de Sistemas de Informação, com orientação da Profª Andrea Charão",
+        "url": "https://github.com/KausLuiene/ProjetoSoftware2/wiki/Plano-de-Teste",
+        "imagens":["alfabetiza/img00.png"]
+      },
+      { 
+        "titulo": "Enemômetro",
+        "descricao": "Compare médias obtidas em escolas e cidades no ENEM",
+        "detalhes": "Enemômetro é um sistema Web que calcula e compara médias no ENEM ao longo dos últimos anos. Compare cidade com cidade. cidade com escola ou escola com escola. Fontes dos dados: INEP/MEC, 2013 a 2018.",
+        "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap, Ruby on Rails, MySQL",
+        "autores": "Marcelo Prates e Willian Soares, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
+        "url": "http://enemometro.inf.ufsm.br",
+        "imagens":["enemometro/img00.png"]
+      },
+      { 
+        "titulo": "VisioEdu",
+        "descricao": "Visualize recursos de escolas e o desempenho de seus alunos no ENEM",
+        "detalhes": "VisioEdu é um sistema Web que apresenta estatísticas detalhadas de desempenho de uma escola nas áreas do ENEM, em relação a diferentes recursos disponíveis (por exemplo, quantidade de funcionários, disponibilidade de biblioteca, acesso à internet, etc.). Visualize estatísticas por estado, cidade ou escola. Compare dados de uma escola com as demais da mesma cidade ou estado. Fontes dos dados: INEP/MEC 2018.",
+        "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap, MySQL",
+        "autores": "Gabriel Pereira e Otávio Mello, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
+        "url": "http://visioedu.herokuapp.com",
+        "imagens":["visioedu/img00.png"]
+      },
+      { 
+        "titulo": "Educadex",
+        "descricao": "Consulte dados do Educacenso/INEP/MEC usando linguagem natural",
+        "detalhes": "Educadex é um sistema Web que processa perguntas em linguagem natural, isto é, na linguagem do próprio usuário, traduzindo-as para consultas a um banco de dados proveniente do Educacenso. Escreva sua pergunta e receba respostas precisas a partir de fontes confiáveis. Fontes dos dados: INEP/MEC 2018.",
+        "linguagens": "HTML, CSS, PHP, Laravel, PostgreSQL, Google Cloud Natural Language API",
+        "autores": "Emilio Pedrollo e Juliano Amaral, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
+        "url": "http://educadex.inf.ufsm.br",
+        "imagens":["educadex/img00.png"]
+      },
+      { 
+        "titulo": "UniProjeta",
+        "descricao": "Explore relações entre desempenho e orçamento em IFES",
+        "detalhes": "Uniprojeta é um sistema Web que permite visualizar relações entre o Índice Geral de Cursos (IGC, indicador de desempenho usado pelo MEC), e o orçamento de cada instituição federal de ensino superior. Selecione uma instituição e visualize seu IGC e orçamento de 2014 a 2019. Fontes dos dados: INEP/MEC e Portal da Transparência",
+        "linguagens": "HTML, CSS, JavaScript, React, TensorFlow",
+        "autores": "Claiton Denardi e Matheus Dalmolin, alunos de Sistemas de Informação, com orientação do Prof. Celio Trois",
+        "url": "https://uniprojeta.herokuapp.com",
+        "imagens":["uniprojeta/img00.png"]
+      },
+      { 
+        "titulo": "Categorizador ODS/ONU",
+        "descricao": "Classifique projetos segundo os Objetivos de Desenvolvimento Sustentável (ODS) da ONU",
+        "detalhes": "Esta ferramenta explora algoritmos de Inteligência Artificial para categorizar projetos registrados na Universidade Federal de Santa Maria segundo os Objetivos de Desenvolvimento Sustentável (ODS) da ONU. Seu objetivo é agilizar o processo e evitar processamento manual.",
+        "linguagens": "Python, TensorFlow",
+        "autores": "Lucas Micol, aluno de Ciência da Computação, com orientação do Prof. Celio Trois",
+        "url": "https://github.com/LMicol/Categorizador-Objetivo-ONU/wiki/Plano-de-Testes",
+        "imagens":["categorizador/img00.png"]
+      },
+      { 
+        "titulo": "Gerenciador de ACG",
+        "descricao": "Gerencie o trâmite de Atividades Complementares de Graduação",
+        "detalhes": "Atividades Complementares de Graduação requerem o trâmite de documentos comprobatórios para que sejam registradas no histórico escolar dos universitários. Este sistema agiliza o trâmite, interligando alunos, colegiado e secretaria de curso. Alunos enviam suas solicitações com documentos anexados e monitoram o cômputo de horas, colegiado aprova ou não as solicitações, e secretaria acompanha o processo.",
+        "linguagens": "HTML, CSS, JavaScript, Bootstrap, PNP, Vue.js",
+        "autores": "Eduardo Nedel e José Victor Viriato, alunos de Ciência da Computação, com orientação do Prof. Celio Trois",
+        "url": "https://github.com/jviriato/acg-front/wiki/Plano-de-Testes",
+        "imagens":["acgs/img00.png"]
+      }
+    
+
+    ]
+  }
+]

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Apresentações de Projeto de Software II - 2019b</title>
+
+<!-- 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ -->
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+     <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse-1">
+ 					<span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">UFSM | CT | Projeto de Software II</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#myModal"  data-toggle="modal" data-target="#myModal">Sobre</a>
+
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              
+              <h4 class="modal-title">Projeto de Software II</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              <p>Disciplina ofertada pelo Departamento de Linguagens e Sistemas de Computação
+                 aos cursos de Sistemas de Informação e Ciência da Computação, ministrada no segundo semestre de 2019
+                 pelos professores Andrea Charão e Celio Trois. </p>
+              <p>Neste semestre, todos os projetos relacionam-se à temática "Dados e Educação". Cada projeto partiu da 
+              	 identificação de um problema nesta temática e gerou uma solução de software, 
+                 que foi desenvolvida em duplas ou invididualmente, usando tecnologias alinhadas com os objetivos.
+              </p>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+        <!-- Page Header -->
+<br>
+<br>
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header" id="nomeprojeto">
+                </h1>
+            </div>
+        </div>
+<br>
+        <!-- /.row -->
+
+         <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div id="myCarousel" class="carousel slide col-md-8" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators" id="carousel-indicators">
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox" id="carousel-inner">
+              </div>
+
+              <!-- Left and right controls -->
+              <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+              </a>
+            </div>
+
+            <div class="col-md-4">
+                <h4>Descrição</h4>
+                <p id="descricaoprojeto"></p>
+                <h4>Linguagens/Tecnologias</h4>
+                <p id="linguagens">
+                </p>
+                <h4>Autoria</h4>
+                <p id="autor"></p>
+                <h4>Acesso</h4>
+                <p id="url"></p>
+            </div>
+
+
+        </div>
+        <!-- /.row -->
+
+
+        <hr>
+
+
+        <!-- Footer -->
+<!--         <footer class="fixed-bottom footer mt-auto py-3">
+          <div class="container">
+            <span class="text-muted">Profª Andrea - Departamento de Linguagens e Sistemas de Computação</span>
+          </div>
+        </footer> -->
+
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-muted">Profª Andrea Charão | Prof. Celio Trois | Depto. de Linguagens e Sistemas de Computação | CT | UFSM</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+
+</body>
+
+<script type="text/javascript">
+    // arquivo que contem o json com a origem dos dados
+    var urlJson = 'dados.json';
+    // imgPath refere-se a pasta em que as imagens estao gravadas
+    var imgPath = 'images/';
+    
+    $.getJSON(urlJson, {
+      cache: false
+    })
+    .done(function( data ) {
+
+      // captura o cookie e define o id do trabalho
+      var id_trabalho = 0;
+      var x = document.cookie;
+      var cookie = x.split('=');
+      id_trabalho = cookie[1];
+
+      // preenche as informacoes do projeto
+      $('#nomeprojeto').append(data[0].trabalhos[id_trabalho].titulo);
+      $('#descricaoprojeto').append(data[0].trabalhos[id_trabalho].detalhes);
+
+      // preenche as linguagens utilizadas
+      $('#linguagens').append(data[0].trabalhos[id_trabalho].linguagens);
+      // var linguagens = data[0].trabalhos[id_trabalho].linguagens.split(';');
+      // for (let i=0; i < linguagens.length; i++){
+      //   $('#linguagens').append('<li>'+linguagens[i]+'</li>');
+      // }
+
+      // preenche os nomes dos autores
+      $('#autor').append(data[0].trabalhos[id_trabalho].autores);
+      var urlTrab = data[0].trabalhos[id_trabalho].url
+      $('#url').append('<a href="'+ urlTrab + '">' + urlTrab + ' </a>');
+
+      let len = data[0].trabalhos[id_trabalho].imagens.length;
+      for (let i = 0; i < len; i++) {
+        var carousel = '<div class="carousel-item';
+        if (i === 0) carousel += '  active';
+        carousel += '">'; 
+        carousel += '<img src="' + imgPath + data[0].trabalhos[id_trabalho].imagens[i] + '" alt="">';
+        carousel +=  '</div>';
+
+                // <!-- <div class="carousel-item active">
+                //   <img src="../images/alfabetiza/img00.png" alt="">
+                // </div>
+
+                // <div class="carousel-item">
+                //   <img src="../images/designare/img02.png" alt="Designare">
+                // </div>
+
+
+        let indicator = '<li data-target="#myCarousel" data-slide-to="'+i+'"';
+        if (i === 0) indicator += ' class="active"';
+        indicator += '></li>';
+
+        
+        $('#carousel-indicators').append(indicator);
+        $('#carousel-inner').append(carousel);
+      }
+
+
+      // var autores = data[0].trabalhos[id_trabalho].autores.split(';');
+      // for (let i=0; i < autores.length; i++){
+      //   $('#autor').append('<li>'+autores[i]+'</li>');
+      // }              
+
+      // adiciona as imagens a galeria
+      // var qtdImg =  data[0].trabalhos[id_trabalho].imagens.length;
+      // for (let i=0; i < qtdImg; i++){
+      //   let imgName = imgPath + data[0].trabalhos[id_trabalho].imagens[i];
+      //   $('#myCarousel').append('<img src="'+imgName+'" data-title="My title" data-description="My description">');
+      // }
+
+      // carrega a galeria depois de preencher as imagens
+      // (function() {
+      //   Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+      //   Galleria.run('.galleria', {
+      //     imageCrop: true, 
+      //     transition: 'fade',
+      //     lightbox: true
+      //   });
+      // }());
+
+    });
+  </script> 
+
+</html>
