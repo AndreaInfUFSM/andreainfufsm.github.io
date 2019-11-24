@@ -50,7 +50,7 @@
         "titulo": "UniProjeta",
         "descricao": "Explore relações entre desempenho e orçamento em IFES",
         "detalhes": "Uniprojeta é um sistema Web que permite visualizar relações entre o Índice Geral de Cursos (IGC, indicador de desempenho usado pelo MEC) e o orçamento de cada instituição federal de ensino superior. Selecione uma instituição e visualize seu IGC e orçamento de 2014 a 2019. Fontes dos dados: INEP/MEC e Portal da Transparência",
-        "linguagens": "HTML, CSS, JavaScript, ReactJS, Node.js, TensorFlow",
+        "linguagens": "HTML, CSS, JavaScript, ReactJS, Node.js, TensorFlow, MongoDB",
         "autores": "Claiton Denardi e Matheus Dalmolin, alunos de Sistemas de Informação, com orientação do Prof. Celio Trois",
         "url": "https://uniprojeta.herokuapp.com",
         "imagens":["uniprojeta/img00.png"]
