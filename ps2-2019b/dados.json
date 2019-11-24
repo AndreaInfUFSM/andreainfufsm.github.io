@@ -6,7 +6,7 @@
         "descricao": "Visualize contribuições de uma escola para as metas do Plano Nacional de Educação",
         "detalhes": "Minha Escola no PNE é um sistema Web que calcula e apresenta contribuições de uma escola para o alcance de metas do Plano Nacional de Educação. Selecione estado e escola e visualize métricas para cada uma das 20 metas do PNE, quando aplicáveis. Saiba mais sobre o PNE e as métricas calculadas. Fontes dos dados: INEP/MEC e IBGE.",
         "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap",
-        "autores": "Anderson Mello e Daniel de Vargas, alunos de Sistemas de Informação, com orientação do Prof. Celio Trois",
+        "autores": "Anderson de Melo e Daniel de Vargas, alunos de Sistemas de Informação, com orientação do Prof. Celio Trois",
         "url": "http://projetominhaescolanopne.danielvargas-dv.com.br/",
         "imagens":["escolapne/img00.png"]
       },
@@ -14,7 +14,7 @@
         "titulo": "AlfabetizaJunto",
         "descricao": "Receba informações diárias sobre alfabetização na palma da mão",
         "detalhes": "AlfabetizaJunto é um aplicativo móvel para Android que oferece informações resumidas sobre alfabetização, a partir de fontes oficiais, no estilo de \"Frases do Dia\". Fontes dos dados: MEC e portais educacionais.",
-        "linguagens": "TypeScript, Ionic Framework, Google Sheets",
+        "linguagens": "TypeScript, Ionic, Google Sheets",
         "autores": "Luiene Kaus, aluna de Sistemas de Informação, com orientação da Profª Andrea Charão",
         "url": "https://github.com/KausLuiene/ProjetoSoftware2/wiki/Plano-de-Teste",
         "imagens":["alfabetiza/img00.png"]
@@ -32,7 +32,7 @@
         "titulo": "VisioEdu",
         "descricao": "Visualize recursos de escolas e o desempenho de seus alunos no ENEM",
         "detalhes": "VisioEdu é um sistema Web que apresenta estatísticas detalhadas de desempenho de uma escola nas áreas do ENEM, em relação a diferentes recursos disponíveis (por exemplo, quantidade de funcionários, disponibilidade de biblioteca, acesso à internet, etc.). Visualize estatísticas por estado, cidade ou escola. Compare dados de uma escola com as demais da mesma cidade ou estado. Fontes dos dados: INEP/MEC 2018.",
-        "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap, MySQL",
+        "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap, Node.js, MySQL",
         "autores": "Gabriel Pereira e Otávio Mello, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
         "url": "http://visioedu.herokuapp.com",
         "imagens":["visioedu/img00.png"]
@@ -49,8 +49,8 @@
       { 
         "titulo": "UniProjeta",
         "descricao": "Explore relações entre desempenho e orçamento em IFES",
-        "detalhes": "Uniprojeta é um sistema Web que permite visualizar relações entre o Índice Geral de Cursos (IGC, indicador de desempenho usado pelo MEC), e o orçamento de cada instituição federal de ensino superior. Selecione uma instituição e visualize seu IGC e orçamento de 2014 a 2019. Fontes dos dados: INEP/MEC e Portal da Transparência",
-        "linguagens": "HTML, CSS, JavaScript, React, TensorFlow",
+        "detalhes": "Uniprojeta é um sistema Web que permite visualizar relações entre o Índice Geral de Cursos (IGC, indicador de desempenho usado pelo MEC) e o orçamento de cada instituição federal de ensino superior. Selecione uma instituição e visualize seu IGC e orçamento de 2014 a 2019. Fontes dos dados: INEP/MEC e Portal da Transparência",
+        "linguagens": "HTML, CSS, JavaScript, ReactJS, Node.js, TensorFlow",
         "autores": "Claiton Denardi e Matheus Dalmolin, alunos de Sistemas de Informação, com orientação do Prof. Celio Trois",
         "url": "https://uniprojeta.herokuapp.com",
         "imagens":["uniprojeta/img00.png"]
