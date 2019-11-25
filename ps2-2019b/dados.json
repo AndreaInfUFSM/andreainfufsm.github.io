@@ -20,14 +20,14 @@
         "imagens":["alfabetiza/img00.png"]
       },
       { 
-        "titulo": "Enemômetro",
-        "descricao": "Compare médias obtidas em escolas e cidades no ENEM",
-        "detalhes": "Enemômetro é um sistema Web que calcula e compara médias no ENEM ao longo dos últimos anos. Compare cidade com cidade. cidade com escola ou escola com escola. Fontes dos dados: INEP/MEC, 2013 a 2018.",
-        "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap, Ruby on Rails, MySQL",
-        "autores": "Marcelo Prates e Willian Soares, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
-        "url": "http://enemometro.inf.ufsm.br",
-        "imagens":["enemometro/img00.png"]
-      },
+        "titulo": "Educadex",
+        "descricao": "Consulte dados do Educacenso/INEP/MEC usando linguagem natural",
+        "detalhes": "Educadex é um sistema Web que processa perguntas em linguagem natural, isto é, na linguagem do próprio usuário, traduzindo-as para consultas a um banco de dados proveniente do Educacenso. Escreva sua pergunta e receba respostas precisas a partir de fontes confiáveis. Fontes dos dados: INEP/MEC 2018.",
+        "linguagens": "HTML, CSS, PHP, Laravel, PostgreSQL, Google Cloud Natural Language API",
+        "autores": "Emilio Pedrollo e Juliano Amaral, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
+        "url": "http://educadex.inf.ufsm.br",
+        "imagens":["educadex/img00.png"]
+      },      
       { 
         "titulo": "VisioEdu",
         "descricao": "Visualize recursos de escolas e o desempenho de seus alunos no ENEM",
@@ -38,13 +38,13 @@
         "imagens":["visioedu/img00.png"]
       },
       { 
-        "titulo": "Educadex",
-        "descricao": "Consulte dados do Educacenso/INEP/MEC usando linguagem natural",
-        "detalhes": "Educadex é um sistema Web que processa perguntas em linguagem natural, isto é, na linguagem do próprio usuário, traduzindo-as para consultas a um banco de dados proveniente do Educacenso. Escreva sua pergunta e receba respostas precisas a partir de fontes confiáveis. Fontes dos dados: INEP/MEC 2018.",
-        "linguagens": "HTML, CSS, PHP, Laravel, PostgreSQL, Google Cloud Natural Language API",
-        "autores": "Emilio Pedrollo e Juliano Amaral, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
-        "url": "http://educadex.inf.ufsm.br",
-        "imagens":["educadex/img00.png"]
+        "titulo": "Enemômetro",
+        "descricao": "Compare médias obtidas em escolas e cidades no ENEM",
+        "detalhes": "Enemômetro é um sistema Web que calcula e compara médias no ENEM ao longo dos últimos anos. Compare cidade com cidade. cidade com escola ou escola com escola. Fontes dos dados: INEP/MEC, 2013 a 2018.",
+        "linguagens": "HTML, CSS, JavaScript, JQuery, Bootstrap, Ruby on Rails, MySQL",
+        "autores": "Marcelo Prates e Willian Soares, alunos de Sistemas de Informação, com orientação da Profª Andrea Charão",
+        "url": "http://enemometro.inf.ufsm.br",
+        "imagens":["enemometro/img00.png"]
       },
       { 
         "titulo": "UniProjeta",
