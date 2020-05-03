@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-147728722-2"></script>
+   <script>
+     window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+
+     gtag('config', 'UA-147728722-2');
+    </script>
+
+    <title>ENADE Ciência da Computação UFSM</title>
+    <!-- <meta http-equiv="refresh" content="300"> -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+    <!-- Mobile meta tags-->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="cleartype" content="on">
+    
+
+    <!-- INCLUDES -->
+    <!-- Base styles: Libraries -->
+    <link rel="stylesheet" href="css/lib/bootstrap.css" />
+    <link rel="stylesheet" href="css/lib/bootstrap-responsive.css" />
+    <link rel="stylesheet" href="css/lib/font-awesome-4.2.0.css" />
+    <link rel="stylesheet" href="css/lib/jquery.dataTables.min.css" />
+    
+    <!-- Base styles -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/base-datatable.css" />
+
+    <!-- JS: Libraries -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.4.3/tabletop.min.js"></script>
+    <script src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+    <script src="js/lib/underscore.js"></script>
+    <script src="js/lib/handlebars-v1.3.0.js"></script>
+    <!-- End Google Analytics Javascript -->
+</head>
+<body>
+    <!-- Content-->
+    <div class="content">
+        <!-- Header-->
+        <div class="header">
+            <div class="logos">
+                <a href="http://portal.inep.gov.br/enade" target="_blank">
+                    ENADE/INEP
+                </a>
+            </div>
+            <h1 class="hide-iframe"></h1>
+
+            </div>
+        <!-- Closes header-->
+        </div>
+
+    <!-- CONTENT GOES HERE -->
+    <div id="body-content">
+        <h1 class="hide-iframe">ENADE Ciência da Computação UFSM</h1>
+        <!-- Subhead -->
+        <div class="header header-sub hide-desktop show-iframe">
+            <div class="header-sub-header">
+                <p>ENADE Ciência da Computação UFSM</p>
+            </div>
+        </div>
+        <!-- Content box-->
+        <div id="content-box">
+            <p id="first-p" class="intro-text">Explore as provas e percentuais de acertos de questões do ENADE Ciência da Computação!<br> Clique nas colunas para ORDENAR e preencha campos para FILTRAR.</p>
+            <table id="searchable-table" class="display">
+                <thead>
+                    <tr>
+                        <th>Ano</th>
+                        <th>Prova</th>
+                        <th>Tipo Questão</th>
+                        <th>Id Questão</th>
+                        <th>Gabarito</th>
+                        <th>Objeto</th>
+                        <th>% Acertos Curso</th>
+                        <th>% Acertos Região</th>
+                        <th>% Acertos Brasil</th>
+                        <th>Dif. (Curso-Brasil)</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        <!-- Close content box-->
+       </div>
+       <div id="footer" class="header hide-desktop show-mobile">
+            <a href="#">Scroll to top</a>
+        </div>
+    <!-- Close body content-->
+    </div>
+    <!-- Templates -->
+    <!-- -https://docs.google.com/a/inf.ufsm.br/spreadsheets/d/1hHJJmRBA1D6-g9wtfvnjvsndP-NxgyzOmFJBC8L2PPQ/pub?hl=en_US&hl=en_US&hl=en_US&output=html&widget=true -->
+    <script id="datatable-template" type="text/x-handlebars-template">
+        {{#each elements}}
+            <tr>
+                <td data-title="Ano:"><a href={{ urlprova }}>{{ ano }}</a></td>
+                <td data-title="Prova:">{{ prova }}</td>
+                <td data-title="Tipo:">{{ tipoquestao }}</td>
+                <td data-title="Id Questao:"><a href={{ urlimage }}>{{ idquestao }}</a></td>
+                <td data-title="Gabarito:">{{ gabarito }}</td>
+                <td data-title="Objeto:">{{ objeto }}</td>
+                <td data-title="% Acertos Curso:"><a href={{ urlcurso }}>{{ acertoscurso }}</a></td>
+                <td data-title="% Acertos Regiao:">{{ acertosregiao }}</td>
+                <td data-title="% Acertos Brasil:">{{ acertosbrasil }}</td>
+                <td data-title="Acertos Dif.:">{{ acertosdif }}</td>
+            </tr>
+        {{/each}}
+    </script>
+    <!-- Custom JS -->
+    <script src="js/base.js"></script>
+    <script src="js/datatable-tabletop-load.js"></script>
+    <!-- Close content-->
+    </div>
+    </body>
+</html>
