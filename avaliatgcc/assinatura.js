@@ -17,6 +17,7 @@ canvas.addEventListener("mousedown", function (e) {
 canvas.addEventListener("touchstart", function (e) {
     e.preventDefault(); // Impede o comportamento padrão do toque
     desenhando = true;
+    canvas.focus();
     xAnterior = e.touches[0].clientX - canvas.getBoundingClientRect().left;
     yAnterior = e.touches[0].clientY - canvas.getBoundingClientRect().top;
 });
