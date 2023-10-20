@@ -69,7 +69,10 @@ canvas.addEventListener("touchend", function (e) {
 
 // Limpar a assinatura
 function limparAssinatura() {
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    var cvs = document.getElementById("assinaturaCanvas");
+    var context = cvs.getContext("2d");
+    
+    context.clearRect(0, 0, cvs.width, cvs.height);
     //assinaturaImagem.src = "";
     //document.getElementById("tgform").reset();
     // document.getElementById("relevancia").value = "";

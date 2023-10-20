@@ -54,7 +54,7 @@
                 <td>Relevância e originalidade</th>
                 <td>Máx 2.0</th>
                 <td>
-                  <input type="text" class="form-control nota-input" placeholder="0.0" id="relevancia"
+                  <input type="text" class="form-control nota-input" placeholder="" id="relevancia"
                     onblur="verificarValor(this, 2.0)" required>
                 </td>
               </tr>
@@ -64,7 +64,7 @@
                 <td>Qualidade do conteúdo</td>
                 <td>Máx 3.0</td>
                 <td>
-                  <input type="text" class="form-control nota-input" placeholder="0.0" id="conteudo"
+                  <input type="text" class="form-control nota-input" placeholder="" id="conteudo"
                     onblur="verificarValor(this, 3.0)" required>
                 </td>
               </tr>
@@ -72,7 +72,7 @@
                 <td>Apresentação</td>
                 <td>Máx 5.0</td>
                 <td>
-                  <input type="text" class="form-control nota-input" placeholder="0.0" id="apresentacao"
+                  <input type="text" class="form-control nota-input" placeholder="" id="apresentacao"
                     onblur="verificarValor(this, 5.0)" required>
                 </td>
               </tr>
@@ -94,21 +94,22 @@
   
   
   
-    <div class="container text-center">
-      <p class="display-6">Assinatura do(a) Avaliador(a)</p>
-      <div class="canvas-container">
-        <canvas id="assinaturaCanvas"></canvas>
-      </div>
-      <div class="mt-3">
-        <button class="btn btn-danger" onclick="limparAssinatura()">Limpar</button>
-        <button class="btn btn-primary" type="button" id="gerarLink">Gerar link de compartilhamento</button>
-        <button class="btn btn-primary" type="button" id="generatePdfBtn">Gerar PDF</button>
-  
-      </div>
-    </div>
+
   
   </form>
 
+  <div class="container text-center">
+    <p class="display-6">Assinatura do(a) Avaliador(a)</p>
+    <div class="canvas-container">
+      <canvas id="assinaturaCanvas"></canvas>
+    </div>
+    <div class="mt-3">
+      <button class="btn btn-danger" onclick="limparAssinatura()">Limpar</button>
+      <button class="btn btn-primary" type="button" id="gerarLink">Gerar link de compartilhamento</button>
+      <button class="btn btn-primary" type="button" id="generatePdfBtn">Gerar PDF</button>
+
+    </div>
+  </div>
 
 
 

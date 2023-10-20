@@ -23,8 +23,8 @@ $(document).ready(function() {
     $(".nota-input").maskMoney({
       thousands: '',
       decimal: '.',
-      precision: 1, // Duas casas decimais
-      allowZero: true, // Permitir 0.00
+      precision: 1, // Uma casa decimal
+      allowZero: true, // Permitir 0.0
       allowNegative: false // Não permitir números negativos
     });
 
