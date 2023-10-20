@@ -65,6 +65,7 @@ canvas.addEventListener("mouseup", function () {
 canvas.addEventListener("touchend", function (e) {
     e.preventDefault(); // Impede o comportamento padrão do toque
     desenhando = false;
+    canvas.focus();
 });
 
 // Limpar a assinatura
