@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newportfolios on Projeto de Software II</title>
+    <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/</link>
+    <description>Recent content in Newportfolios on Projeto de Software II</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <atom:link href="https://andreainfufsm.github.io/ps2-2023b/newportfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Campus360</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work1/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work1/</guid>
+      <description>Descrição Uma plataforma descomplicada para conectar organizadores de eventos na UFSM ao público interessado. Navegue e descubra o que acontece na UFSM. Cadastre-se para indicar seu interesse em um evento. Você está organizando um evento? Divulgue aqui e acompanhe a estimativa de público!
+Acesso Disponível em https://trabalho-665d0--main-iz3b21bz.web.app/
+Saiba mais Equipe: Júlio César Polmann Cuencas, Lucas Caetano da Veiga, Stefano Camargo Squarcieri e Dinei Joao Della Giustina, estudantes de Sistemas de Informação, orientados pela</description>
+    </item>
+    <item>
+      <title>ConectaVagas</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work2/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work2/</guid>
+      <description>Descrição Uma plataforma local que auxilia alunos e empresas da área de Tecnologia da Informação a se conectarem de maneira fácil e rápida. Não é um novo LinkedIn, é uma plataforma direto ao ponto que reúne informações indispensáveis sobre ambas as partes, para facilitar o alinhamento entre necessidades e competências.
+Acesso Disponível em https://conectvagas.vercel.app/
+Saiba mais Equipe: Lucas Dall Asta Martins, Pedro de Andrade Santos, Thales da Vargas Stamm e Yuri Fonseca de Morais</description>
+    </item>
+    <item>
+      <title>e-Monitor</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work3/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work3/</guid>
+      <description>Descrição Uma plataforma que conecta alunos de ensino médio a monitores voluntários da UFSM, para esclarecimento de dúvidas. Visamos aproximar estes públicos e combater a reprovação e evasão escolar, além de proporcionar experiência aos universitários monitores.
+Acesso Disponível em https://e-monitor-front.vercel.app/
+Saiba mais Equipe: Alisson Costa Schmidt, Augusto Pagnossim Frigo, Gustavo Machado de Freitas e Waliston Euripedes dos Santos
+Tecnologias:</description>
+    </item>
+    <item>
+      <title>JarDex</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work4/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work4/</guid>
+      <description>Descrição Tecnologia, IA e natureza: um aplicativo para abordar o problema crescente da falta de conhecimento sobre as plantas e suas necessidades. Em um mundo onde a conscientização ambiental e a conexão com a natureza são cada vez mais importantes, JarDex se destaca como uma ferramenta essencial para entusiastas de jardinagem, amantes da natureza, estudantes e qualquer pessoa interessada em aprender mais sobre o reino vegetal.
+Acesso Disponível em https://drive.google.com/file/d/197LoMesTbe-wcdMpFLdVtTUTKabwuEgM/view?usp=drive_link</description>
+    </item>
+    <item>
+      <title>SmartNutri</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work5/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work5/</guid>
+      <description>Descrição A Polifeira do Agricultor é uma ação de extensionista da UFSM em que produtores rurais da região expoẽm e comercializam diversos produtos. Uma ação da UFSM no apoio aos produtores é a geração de tabelas nutricionais dos produtos comercializados pelos feirantes. Para agilizar esta geração e beneficiar todos os envolvidos, este sistema web automatizar o processo, gerando tabelas nutricionais para receitas com diferentes tipos de ingredientes.
+Acesso Disponível em http://smartnutri.</description>
+    </item>
+    <item>
+      <title>PratoCheio</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work6/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work6/</guid>
+      <description>Descrição Um aplicativo que notifica usuários sobre solicitações de alimentos feitas por instituições, incentivando a doação e auxiliando quem precisa.
+Acesso Disponível em https://prato-cheio-frontend.vercel.app/
+Saiba mais Equipe: Bruno Alves Tavares Rafael Alves da Costa
+Tecnologias:</description>
+    </item>
+    <item>
+      <title>UFSM GO</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work7/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work7/</guid>
+      <description>Descrição Explore o grande e majestoso Campus Sede da UFSM, no bairro Camobi de Santa Maria - RS, repleto de atrativos, pontos de interesse e eventos ocasionais que não se limitam ao público acadêmico. Ganhe pontos no aplicativo a cada local visitado e conquiste seu lugar no placar de pessoas que mais conhecem o Campus!
+Acesso Disponível em https://mrtrevisan.github.io/ufsmgo-front/
+Saiba mais Equipe: João Davi Rigo Mazzarolo Mauro Roberto Machado Trevisan Ramon Godoy Izidoro</description>
+    </item>
+    <item>
+      <title>UFSMAP</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work8/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work8/</guid>
+      <description>Descrição Um mapa online interativo do campus da UFSM, apresentando diversos pontos de interesse. Pesquise, filtre por categorias e contribua om informações!
+Acesso Disponível em https://ufsm-map.onrender.com/
+Saiba mais Equipe: João Carlos Zucchi, Luis Henrique Silveira Pozzebon e Raul Steinmetz, estudantes de Ciência da Computação, orientados pela
+Tecnologias:</description>
+    </item>
+    <item>
+      <title>UFSMDirect</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work9/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work9/</guid>
+      <description>Descrição O UFSMDirect é o site perfeito para você encontrar qual será seu curso ideal na Federal. Aqui, você vai entender quais são as áreas que existem na Tecnologia da Informação e o que cada uma delas é, além de quais disciplinas deve se focar mais dentro do curso.
+Acesso Disponível em https://ufsmdirect.onrender.com/
+Saiba mais Equipe: Ana Clara Boniatti Bordin Felipe Colpo Bagesteiro Marcos Eduardo Mori Kaminski Samuel Souza Pereira Nunes</description>
+    </item>
+    <item>
+      <title>UniVerse</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work10/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/newportfolio/work10/</guid>
+      <description>Descrição Um guia personalizado, com abordagem interativa e dinâmica, que coleta respostas do usuário para traçar um perfil individual e facilitar a jornada de autodescoberta e escolha de um curso superior na UFSM.
+Acesso Disponível em http://universe.inf.ufsm.br
+Saiba mais Equipe: Enzo Zanini Becker Larissa Cavalheiro Pretto Marcos Visentini Virginia Moreira Marques Colares
+Tecnologias:</description>
+    </item>
+  </channel>
+</rss>

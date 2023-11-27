@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Projeto de Software II</title>
+    <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/</link>
+    <description>Recent content in Portfolios on Projeto de Software II</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Nov 2016 18:25:22 +0530</lastBuildDate>
+    <atom:link href="https://andreainfufsm.github.io/ps2-2023b/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Campus360</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work1/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work1/</guid>
+      <description>&lt;p&gt;Divulgue e conheça eventos da UFSM em um só lugar!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ConectaVagas</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work2/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work2/</guid>
+      <description>&lt;p&gt;Uma plataforma local de divulgação de oportunidades profissionais de tecnologia&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>e-Monitor</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work3/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work3/</guid>
+      <description>&lt;p&gt;Uma plataforma para conectar alunos do ensino médio a monitores voluntários da UFSM.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JarDex</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work4/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work4/</guid>
+      <description>&lt;p&gt;Reconhecimento de plantas com IA na palma da sua mão!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SmartNutri</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work5/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work5/</guid>
+      <description>&lt;p&gt;Um assistente automatizado para geração de tabelas nutricionais para a Polifeira da UFSM.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PratoCheio</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work6/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work6/</guid>
+      <description>&lt;p&gt;Uma rede que conecta doadores a instituições de assistência social que demandam doações de alimentos.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UFSM GO</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work7/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work7/</guid>
+      <description>&lt;p&gt;Um jogo inspirado em Pokémon Go para incentivar passeios pelo Campus da UFSM.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UFSMAP</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work8/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work8/</guid>
+      <description>&lt;p&gt;Localize pontos de interesse na UFSM e contribua com mais informações! .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UFSMDirect</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work9/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work9/</guid>
+      <description>&lt;p&gt;Descubra qual área de computação mais combina com você!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>UniVerse</title>
+      <link>https://andreainfufsm.github.io/ps2-2023b/portfolio/work10/</link>
+      <pubDate>Sat, 05 Nov 2016 18:25:22 +0530</pubDate>
+      <guid>https://andreainfufsm.github.io/ps2-2023b/portfolio/work10/</guid>
+      <description>&lt;p&gt;Embarque em uma viagem com este guia vocacional que te ajuda a escolher um curso da UFSM.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
