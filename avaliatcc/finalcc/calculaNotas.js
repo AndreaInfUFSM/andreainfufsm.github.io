@@ -43,7 +43,7 @@ function calcularSubTotal3() {
 
         document.getElementById("subT3").value = subTotal3.toFixed(1);
     } else {
-      document.getElementById("subT3").value = "xxx";
+      document.getElementById("subT3").value = "";
     }
     calcularTotal();
   }
