@@ -10,7 +10,7 @@ function verificarValor(input, limite) {
         // Mostre um alerta na tela
         alert('O valor inserido é maior que o limite. O campo foi zerado.');
     }
-    calcularTotal()
+    calcularTotal();
     
 }
 
