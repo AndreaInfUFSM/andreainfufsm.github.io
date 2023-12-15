@@ -41,7 +41,7 @@ document.getElementById("generatePdfBtn").addEventListener("click", function () 
   const imgAl = assinaturaAl.toDataURL("image/png");
   //
 
-  if (nomeAluno === "" || nomeProfessor === "" || dataValue === "" ||hora === "" ||nomeAvaliador1 === "" ||nomeAvaliador2 === "" ||curso === "" ||notaFinal === "" ||dataFim === "" ||sala === "" ||titulo === "" || assinaturaAl == null) {
+  if (nomeAluno === "" || nomeProfessor === "" || dataValue === "" ||nomeAvaliador1 === "" ||nomeAvaliador2 === "" ||curso === "" ||notaFinal === "" ||dataFim === "" ||sala === "" ||titulo === "" || assinaturaAl == null) {
     alert("Por favor, preencha todos os campos.");
     return false;
   }
