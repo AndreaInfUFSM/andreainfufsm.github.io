@@ -20,7 +20,9 @@ document.getElementById("generatePdfBtn").addEventListener("click", function () 
   const nomeAvaliador1 = document.getElementById("nomeAvaliador1").value;
   const nomeAvaliador2 = document.getElementById("nomeAvaliador2").value;
   const curso = document.getElementById("curso").value;
-  const notaFinal = document.getElementById("notaFinal").value;
+  const notaFinalInput = document.getElementById("notaFinal");
+  const notaFinal = notaFinalInput.value.trim() === "" ? "_____" : notaFinalInput.value;
+
   const dataFim = document.getElementById("dataFim").value;
   const sala = document.getElementById("sala").value;
   const titulo = document.getElementById("tituloTrabalho").value;
@@ -52,23 +54,30 @@ document.getElementById("generatePdfBtn").addEventListener("click", function () 
   doc.addImage(imgAl, "PNG", 120, 230, 50, 20);
 
   //config das datas
-  const data = new Date(dataValue);
-  const dataF = new Date(dataFim);
+  // const data = new Date(dataValue);
+  // const dataF = new Date(dataFim);
 
-  const dia = data.getDate();
-  const mes = data.getMonth() + 1;
-  const mesExt = numeroParaMes(mes);
-  const ano = data.getFullYear();
+  const [ano, mes, dia] = dataValue.split("-");
+  const mesExt = numeroParaMes(Number(mes));
 
-  const diaF = dataF.getDate();
-  const mesF = dataF.getMonth() + 1;
-  const mesExtF = numeroParaMes(mesF);
-  const anoF = dataF.getFullYear();
+  const [anoF, mesF, diaF] = dataFim.split("-");
+  const mesExtF = numeroParaMes(Number(mesF));
+
+
+  // const dia = data.getDate();
+  // const mes = data.getMonth() + 1;
+  // const mesExt = numeroParaMes(mes);
+  // const ano = data.getFullYear();
+
+  // const diaF = dataF.getDate();
+  // const mesF = dataF.getMonth() + 1;
+  // const mesExtF = numeroParaMes(mesF);
+  // const anoF = dataF.getFullYear();
 
 
   const Texto = `
     Aos ${dia} dias do mês de ${mesExt} de ${ano} às ${hora}, na sala ${sala}, realizou-se o Exame da Defesa do Trabalho de Conclusão de Curso intitulado: ${titulo}, de autoria de ${nomeAluno}, acadêmico (a) do Curso de Graduação em ${curso} da UFSM.
-    A Banca Examinadora esteve constituída por ${nomeProfessor}, professor(a) orientador(a) do Trabalho de Conclusão de Curso, e por ${nomeAvaliador1} e  ${nomeAvaliador2}, membros avaliadores. O(a) acadêmico(a) recebeu a nota final ${notaFinal}. Foi concedido até a data de ${diaF} do mês de ${mesExtF} de ${anoF} para o(a) acadêmico(a) realizar as alterações sugeridas pela Banca Examinadora e entregar o trabalho em sua redação definitiva. E para constar foi lavrada a presente Ata, que será assinada pelos membros da Banca Examinadora e pelo(a) acadêmico(a).
+    A Banca Examinadora esteve constituída por ${nomeProfessor}, professor(a) orientador(a) do Trabalho de Conclusão de Curso, e por ${nomeAvaliador1} e ${nomeAvaliador2}, membros avaliadores. O(a) acadêmico(a) recebeu a nota final ${notaFinal}, calculada posteriormente após conferência das fichas de avaliação. Foi concedido até a data de ${diaF} do mês de ${mesExtF} de ${anoF} para o(a) acadêmico(a) realizar as alterações sugeridas pela Banca Examinadora e entregar o trabalho em sua redação definitiva. E para constar foi lavrada a presente Ata, que será assinada pelos membros da Banca Examinadora e pelo(a) acadêmico(a).
   `;
 
   const local = `
